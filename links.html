@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate and Weather Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+            padding: 20px;
+            max-width: 1200px;
+            width: 100%;
+        }
+        .grid-item {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .grid-item:hover {
+            transform: scale(1.05);
+        }
+        .grid-item a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <a href="https://earth.nullschool.net/" target="_blank">Earth Nullschool</a>
+        </div>
+        <div class="grid-item">
+            <a href="https://www.windy.com/" target="_blank">Windy</a>
+        </div>
+        <div class="grid-item">
+            <a href="https://climatedataguide.ucar.edu/" target="_blank">Climate Data Guide (UCAR)</a>
+        </div>
+        <div class="grid-item">
+            <a href="https://climatereanalyzer.org/" target="_blank">Climate Reanalyzer</a>
+        </div>
+        <div class="grid-item">
+            <a href="https://giovanni.gsfc.nasa.gov/giovanni/" target="_blank">Giovanni (NASA)</a>
+        </div>
+        <div class="grid-item">
+            <a href="https://psl.noaa.gov/products/" target="_blank">NOAA PSL Products</a>
+        </div>
+        <div class="grid-item">
+            <a href="https://climatedataguide.ucar.edu/climate-tools#climate-data-processing-visualization" target="_blank">UCAR Climate Tools</a>
+        </div>
+        <div class="grid-item">
+            <a href="https://droughtmonitor.unl.edu/" target="_blank">US Drought Monitor</a>
+        </div>
+        <div class="grid-item">
+            <a href="https://indiadroughtmonitor.in/#/" target="_blank">India Drought Monitor</a>
+        </div>
+    </div>
+</body>
+</html>
